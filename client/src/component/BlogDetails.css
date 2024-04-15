@@ -1,0 +1,38 @@
+.blog-detail-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.blog-detail-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    gap: 5vh;
+}
+  
+  .blog-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #739072;
+  }
+  
+  .blog-detail-desc{
+    font-style: italic;
+  }
+  
+ 
+  .blog-detail-author {
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    font-style: italic;
+} 
+
+.blog-detail-main{
+    padding-bottom: 10vh;
+}

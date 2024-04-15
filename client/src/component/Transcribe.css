@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.liveaudioheading{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.transcribefield{
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+
+}

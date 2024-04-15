@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.uploadaudioheading{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.uploadfield{
+    display: inline;
+    margin-top: 5.2rem;
+    margin-left: 10rem;
+}

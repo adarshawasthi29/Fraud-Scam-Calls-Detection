@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .parent1{
+    height: 70vh;
+    width: 100vw;
+    overflow: none;
+    position: relative;
+}
+
+.frontimg{
+    height: 100%;
+    width: 100vw;
+    position: relative;
+   filter: brightness(60%);
+}
+.imagetext{
+    position: absolute;
+    top: 25%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Change text color as needed */
+    font-size: 4rem; /* Change font size as needed */
+    text-align: center;
+    z-index: 1;
+    font-weight: bolder;
+}
+.imagetext2{
+    position: absolute;
+    top: 35%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Change text color as needed */
+    font-size: 4rem; /* Change font size as needed */
+    text-align: center;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+.imagetext3{
+    position: absolute;
+    top: 45%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Change text color as needed */
+    font-size: 1.5rem; /* Change font size as needed */
+    text-align: center;
+    z-index: 1;
+}

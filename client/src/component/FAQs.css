@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.faqheading{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );    
+    color: white;
+
+    
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+    color: white;
+  }
+  
+  .accordion-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 500;
+    border: none;
+    /* background-color: #f9f9f9; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .accordion-btn:hover {
+    /* background-color: #f0f0f0; */
+    color: white;
+  }
+  
+  .accordion-btn:focus {
+    outline: none;
+    color: white;
+  }
+  
+  .accordion-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+    color: white;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+    color: white;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+    display: none;
+    /* background-color: #fff; */
+    color: white;
+  }
+  
+  .accordion-content.open {
+    display: block;
+    color: white;
+  }
+  

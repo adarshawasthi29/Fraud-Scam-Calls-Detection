@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+     body{
+        background-color: #cccccc;
+     }
+}
+.slick-slide>div {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 10px;
+    margin-right: 10px; /* Adjust margin values as needed */
+} 
+
+.imagerotate{
+    margin-top: -150px;
+}
+.content{
+    margin-top: -100px;
+}
+p{
+font-size:15px;
+	line-height:20px;
+	color:#222222;
+}
+  /* Add some margin between the image and text content */
+
+.Slides{
+  margin-top: 7rem;
+}
+.communityHeading{
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(39, 59, 213);
+}
+
+  
+  
+  
